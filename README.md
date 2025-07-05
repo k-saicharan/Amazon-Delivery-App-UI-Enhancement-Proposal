@@ -1,5 +1,3 @@
-# Amazon-Delivery-App-UI-Enhancement-Proposal
-
 # Amazon Delivery App UI Enhancement - Notify of Arrival Feature
 
 A comprehensive proposal for implementing a standalone "Notify of Arrival" bell-icon button in Amazon's delivery application to streamline customer notifications and improve delivery efficiency.
