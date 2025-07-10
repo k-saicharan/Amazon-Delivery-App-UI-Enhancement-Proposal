@@ -3,7 +3,7 @@
 A business intelligence dashboard analyzing the ROI and implementation strategy for optimizing Amazon's delivery notification system. Built using advanced data visualization and interactive web technologies.
 
 ## 🚀 **Live Dashboard**
-**[View Interactive Dashboard →](file:///C:/Users/saich/OneDrive/Desktop/NoA/PLab/exported-assets/index.html)**
+**[View Interactive Dashboard →]( file:///C:/Users/saich/OneDrive/Desktop/NoA/PLab/exported-assets/index.html )**
 
 ## 📊 **Key Insights**
 - **80% time reduction**: 15s → 3s notification process
