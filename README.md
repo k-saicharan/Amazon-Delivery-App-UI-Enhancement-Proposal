@@ -2,9 +2,8 @@
 
 A business intelligence dashboard analyzing the ROI and implementation strategy for optimizing Amazon's delivery notification system. Built using advanced data visualization and interactive web technologies.
 
-
 ## 🚀 [View Live Dashboard](https://k-saicharan.github.io/Amazon-Delivery-App-UI-Enhancement-Proposal/)
-
+- [Dashboard Design](dashboard) - Dashboard layout overview
 
 ## 📊 **Key Insights**
 - **80% time reduction**: 15s → 3s notification process
@@ -20,6 +19,13 @@ A business intelligence dashboard analyzing the ROI and implementation strategy 
 
 ## 💼 **Business Impact**
 Comprehensive analysis combining Design Thinking, Lean UX methodology, and financial modeling to demonstrate how a single UI optimization can deliver massive operational efficiency gains.
+
+## 🔄 **Current vs Suggested**
+- [Current State](current.png) - Current dashboard snapshot
+- [Suggested Improvements](suggested.png) - Proposed dashboard enhancements
+
+## 📑 **Full Proposal**
+- Access the complete proposal here: [https://k-saicharan.github.io/Amazon-Delivery-App-UI-Enhancement-Proposal/proposal.pdf](https://k-saicharan.github.io/Amazon-Delivery-App-UI-Enhancement-Proposal/proposal.pdf)
 
 ---
 *Built as a strategic case study demonstrating business analysis, UI/UX optimization, and data-driven decision making.*
