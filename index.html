@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amazon Delivery App – Executive Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <!-- Leaflet -->
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+  />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+</head>
+<body>
+  <header class="container py-16 flex justify-between items-center">
+    <h1>Amazon Delivery App – UI Enhancement Dashboard</h1>
+    <button id="exportBtn" class="btn btn--outline">Print / Export</button>
+  </header>
+
+  <div class="container dashboard flex gap-16">
+    <!-- Sidebar -->
+    <aside class="sidebar card flex flex-col gap-16 px-16 py-16">
+      <h3 class="mb-8">Filters</h3>
+      <div class="form-group">
+        <label class="form-label" for="timeframeSelect">Timeframe</label>
+        <select id="timeframeSelect" class="form-control">
+          <option value="1">1 Year</option>
+          <option value="3">3 Years</option>
+          <option value="5" selected>5 Years</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label class="form-label" for="regionSelect">Region</label>
+        <select id="regionSelect" class="form-control">
+          <option value="all" selected>All Regions</option>
+          <option value="pilot">Pilot Cities</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label class="form-label" for="metricSelect">Primary Metric</label>
+        <select id="metricSelect" class="form-control">
+          <option value="roi" selected>ROI</option>
+          <option value="costSavings">Cost Savings</option>
+          <option value="timeReduction">Time Reduction</option>
+        </select>
+      </div>
+    </aside>
+
+    <!-- Main Grid -->
+    <main class="main-grid flex-1 grid gap-16">
+      <!-- KPI Panel -->
+      <section id="kpiPanel" class="card">
+        <div class="card__header"><h2>Executive KPI Panel</h2></div>
+        <div class="card__body grid kpi-grid"></div>
+      </section>
+
+      <!-- Financial Impact -->
+      <section id="financialImpact" class="card">
+        <div class="card__header flex justify-between items-center">
+          <h2>Financial Impact Visualizer</h2>
+        </div>
+        <div class="card__body">
+          <canvas id="roiChart" height="320"></canvas>
+        </div>
+      </section>
+
+      <!-- Timeline -->
+      <section id="timelineSection" class="card">
+        <div class="card__header flex justify-between items-center">
+          <h2>Implementation Timeline</h2>
+        </div>
+        <div class="card__body timeline-container flex gap-16">
+          <ul id="timelinePhases" class="timeline-list"></ul>
+          <div id="phaseDetails" class="phase-details flex-1"></div>
+        </div>
+      </section>
+
+      <!-- Map -->
+      <section id="mapSection" class="card">
+        <div class="card__header flex justify-between items-center">
+          <h2>UK Operations Map</h2>
+        </div>
+        <div class="card__body" style="height:400px;">
+          <div id="ukMap" style="height:100%; width:100%;"></div>
+        </div>
+      </section>
+
+      <!-- Performance Comparison -->
+      <section id="performanceSection" class="card">
+        <div class="card__header flex justify-between items-center">
+          <h2>Performance Comparison</h2>
+        </div>
+        <div class="card__body performance-container flex gap-16"></div>
+      </section>
+
+      <!-- Competitive Analysis -->
+      <section id="competitiveSection" class="card">
+        <div class="card__header flex justify-between items-center">
+          <h2>Competitive Analysis</h2>
+        </div>
+        <div class="card__body">
+          <canvas id="competitiveChart" height="320"></canvas>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <footer class="container py-16 mt-8 flex justify-between items-center">
+    <span>Data sources: Amazon internal analytics · Updated: July 10, 2025</span>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
