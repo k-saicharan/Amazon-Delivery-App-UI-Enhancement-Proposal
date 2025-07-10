@@ -1,9 +1,9 @@
 # Amazon Delivery App UI Enhancement - Interactive Dashboard
 
-An executive-level business intelligence dashboard analyzing the ROI and implementation strategy for optimizing Amazon's delivery notification system. Built using advanced data visualization and interactive web technologies.
+A business intelligence dashboard analyzing the ROI and implementation strategy for optimizing Amazon's delivery notification system. Built using advanced data visualization and interactive web technologies.
 
 ## 🚀 **Live Dashboard**
-**[View Interactive Dashboard →](your-dashboard-link-here)**
+**[View Interactive Dashboard →](file:///C:/Users/saich/OneDrive/Desktop/NoA/PLab/exported-assets/index.html)**
 
 ## 📊 **Key Insights**
 - **80% time reduction**: 15s → 3s notification process
