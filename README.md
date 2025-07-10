@@ -25,7 +25,7 @@ Comprehensive analysis combining Design Thinking, Lean UX methodology, and finan
 - [Suggested Improvements](suggested.png) - Proposed dashboard enhancements
 
 ## 📑 **Full Proposal**
-- Access the complete proposal here: [https://k-saicharan.github.io/Amazon-Delivery-App-UI-Enhancement-Proposal/proposal.pdf](https://k-saicharan.github.io/Amazon-Delivery-App-UI-Enhancement-Proposal/proposal.pdf)
+- Access the complete proposal here: [https://k-saicharan.github.io/Amazon-Delivery-App-UI-Enhancement-Proposal/proposal.pdf](https://k-saicharan.github.io/Amazon-Delivery-App-UI-Enhancement-Proposal/Proposal.pdf)
 
 ---
 *Built as a strategic case study demonstrating business analysis, UI/UX optimization, and data-driven decision making.*
